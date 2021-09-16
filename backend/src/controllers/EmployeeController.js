@@ -20,6 +20,6 @@ module.exports = {
       bonus,
     });
 
-    return res.json({ id });
+    return res.json({ id, name });
   }
 }
