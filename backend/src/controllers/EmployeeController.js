@@ -20,6 +20,6 @@ module.exports = {
       bonus,
     });
 
-    return res.json({ id, name });
+    return res.json({ id, name, wage, bonus });
   }
 }
