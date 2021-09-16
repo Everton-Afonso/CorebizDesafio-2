@@ -1,0 +1,25 @@
+.table {
+  width: 100%;
+  padding-top: 30px;
+
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table th {
+  font-size: 1.2rem;
+}
+.table table td,
+th {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  text-align: left;
+  padding: 8px;
+  font-size: 1rem;
+}
